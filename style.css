@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    height: 90px;
+    width: 90%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.firstSections{
+}
+.headerSections{
+    height: 94%;
+    width: 32%;
+    border: 1px solid black;
+}
+.container{
+    height: 500px;
+    width: 90%;
+    background-color: chocolate;
+}
+main{
+    height: 500px;
+    width: 90%;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    height: 200px;
+    width: 90%;
+    background-color: bisque;   
+}
